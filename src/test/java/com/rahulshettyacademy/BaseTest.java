@@ -25,6 +25,7 @@ public class BaseTest {
     public List<HashMap<String, String>> getJsonData(String jsonFilePath)  {
 
         //Convert json file content to json string
+        //only add new line for test
 
         try {
             String jsonContent = FileUtils.readFileToString(new File(jsonFilePath), StandardCharsets.UTF_8);
