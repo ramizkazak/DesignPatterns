@@ -26,6 +26,7 @@ public class BaseTest {
 
         //Convert json file content to json string
         //only add new line for test
+        //new for practice
 
         try {
             String jsonContent = FileUtils.readFileToString(new File(jsonFilePath), StandardCharsets.UTF_8);
